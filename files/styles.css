@@ -46,3 +46,27 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Set background image to cover the entire page */
+body {
+    /* Set the background image to be the pentagon */
+    background-image: url("/images/congruent_pentagon.png");
+    /* Set the background image to be repeat */
+    background-repeat: repeat;
+}
+
+/* Allign the href links to the right */
+a {
+    /* Set the align to be middle */
+    text-align: center;
+    /* Set the width of the link to be 100% */
+    width: 100%;
+    /* Set the height of the link to be 100% */
+    height: 100%;
+
+}
+
+/* Wrap mainContainer below picture container */
+div .mainContainer {
+    display: block;
+}
